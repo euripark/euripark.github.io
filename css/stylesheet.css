@@ -145,6 +145,7 @@ section.page-three{
 }
 
 div#sixthreequote{
+	font-family: Miriam Libre;
 	width: 900px;
  	color: #ff02ff;
  	text-shadow: 2px 2px 0 #000;
@@ -182,7 +183,8 @@ section.page-four{
 	overflow: hidden;
 }
 
-div#lastkeyboard{
+/*
+div#background{
 	height: 600px;
 	width:auto;
  	background-image:url(../images/lastgraphic.gif);
@@ -191,7 +193,603 @@ div#lastkeyboard{
 	background-repeat: no-repeat;
 	position:center;
 	margin:10% 0 0 7%;
+}
+*/
 
+
+div#im{
+	background-image: url(../images/keyboard/1_im_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 15vw;
+	margin-left: 19vw;
+	padding: 0;
 }
 
+		div#im:hover{
+		background-image: url(../images/keyboard/1_im_down.png);
+		margin-top: 17vw;
+	}
+
+div#confident{
+	background-image: url(../images/keyboard/2_confident_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 15vw;
+	margin-left: 25.75vw;
+	padding: 0;
+}
+
+		div#confident:hover{
+		background-image: url(../images/keyboard/2_confident_down.png);
+		margin-top: 17vw;
+	}
+
+div#that{
+	background-image: url(../images/keyboard/3_that_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 15vw;
+	margin-left: 39.25vw;
+}
+
+		div#that:hover{
+		background-image: url(../images/keyboard/3_that_down.png);
+		margin-top: 17vw;
+	}
+
+div#any{
+	background-image: url(../images/keyboard/4_any_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 15vw;
+	margin-left: 45.95vw;
+}
+
+		div#any:hover{
+		background-image: url(../images/keyboard/4_any_down.png);
+		margin-top: 17vw;
+	}
+
+div#womencan{
+	background-image: url(../images/keyboard/5_womencan_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 15vw;
+	margin-left: 52.75vw;
+}
+
+		div#womencan:hover{
+		background-image: url(../images/keyboard/5_womencan_down.png);
+		margin-top: 17vw;
+	}
+
+div#create{
+	background-image: url(../images/keyboard/6_create_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 15vw;
+	margin-left: 66.25vw;
+}
+
+		div#create:hover{
+		background-image: url(../images/keyboard/6_create_down.png);
+		margin-top: 17vw;
+	}
+
+div#a{
+	background-image: url(../images/keyboard/7_a_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 15vw;
+	margin-left: 73.05vw;
+}
+
+		div#a:hover{
+		background-image: url(../images/keyboard/7_a_down.png);
+		margin-top: 17vw;
+	}
+
+div#billiondollar{
+	background-image: url(../images/keyboard/8_billiondollar_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 20vw;
+	margin-left: 15vw;
+}
+
+		div#billiondollar:hover{
+		background-image: url(../images/keyboard/8_billiondollar_down.png);
+		margin-top: 22vw;
+	}
+
+div#business{
+	background-image: url(../images/keyboard/9_business_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 20vw;
+	margin-left: 28.60vw;
+}
+
+		div#business:hover{
+		background-image: url(../images/keyboard/9_business_down.png);
+		margin-top: 22vw;
+	}
+
+div#and{
+	background-image: url(../images/keyboard/10_and_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 19.95vw;
+	margin-left: 42.25vw;
+}
+
+		div#and:hover{
+		background-image: url(../images/keyboard/10_and_down.png);
+		margin-top: 21.95vw;
+	}	
+
+div#imconfident{
+	background-image: url(../images/keyboard/11_imconfident_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 20vw;
+	margin-left: 49.125vw;
+}
+
+		div#imconfident:hover{
+		background-image: url(../images/keyboard/11_imconfident_down.png);
+		margin-top: 22vw;
+	}	
+
+div#becausewe{
+	background-image: url(../images/keyboard/12_becausewe_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 20vw;
+	margin-left: 62.75vw;
+}
+
+		div#becausewe:hover{
+		background-image: url(../images/keyboard/12_becausewe_down.png);
+		margin-top: 22vw;
+	}	
+
+div#as{
+	background-image: url(../images/keyboard/13_as_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 20vw;
+	margin-left: 76.35vw;
+}
+
+		div#as:hover{
+		background-image: url(../images/keyboard/13_as_down.png);
+		margin-top: 22vw;
+	}	
+
+div#womanshare{
+	background-image: url(../images/keyboard/14_womanshare_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 25vw;
+	margin-left: 18vw;
+}
+
+		div#womanshare:hover{
+		background-image: url(../images/keyboard/14_womanshare_down.png);
+		margin-top: 27vw;
+	}	
+
+div#so{
+	background-image: url(../images/keyboard/15_so_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 25vw;
+	margin-left: 31.5vw;
+}
+
+		div#so:hover{
+		background-image: url(../images/keyboard/15_so_down.png);
+		margin-top: 27vw;
+	}	
+
+div#many{
+	background-image: url(../images/keyboard/16_many_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 25vw;
+	margin-left: 38.25vw;
+}
+
+		div#many:hover{
+		background-image: url(../images/keyboard/16_many_down.png);
+		margin-top: 27vw;
+	}	
+
+div#ofthe{
+	background-image: url(../images/keyboard/17_ofthe_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 25vw;
+	margin-left: 45.10vw;
+}
+
+		div#ofthe:hover{
+		background-image: url(../images/keyboard/17_ofthe_down.png);
+		margin-top: 27vw;
+	}	
+
+div#problems{
+	background-image: url(../images/keyboard/18_problems_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 25vw;
+	margin-left: 58.65vw;
+}
+
+		div#problems:hover{
+		background-image: url(../images/keyboard/18_problems_down.png);
+		margin-top: 27vw;
+	}	
+
+div#wereally{
+	background-image: url(../images/keyboard/19_wereally_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 25vw;
+	margin-left: 72.3vw;
+}
+
+		div#wereally:hover{
+		background-image: url(../images/keyboard/19_wereally_down.png);
+		margin-top: 27vw;
+	}	
+
+div#the{
+	background-image: url(../images/keyboard/20_the_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 13vw;
+}
+
+		div#the:hover{
+		background-image: url(../images/keyboard/20_the_down.png);
+		margin-top: 32vw;
+	}	
+
+div#power{
+	background-image: url(../images/keyboard/21_power_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 19.85vw;
+}
+
+		div#power:hover{
+		background-image: url(../images/keyboard/21_power_down.png);
+		margin-top: 32vw;
+	}	
+
+div#of{
+	background-image: url(../images/keyboard/22_of_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 33.35vw;
+}
+
+		div#of:hover{
+		background-image: url(../images/keyboard/22_of_down.png);
+		margin-top: 32vw;
+	}	
+
+div#problem{
+	background-image: url(../images/keyboard/23_problem_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 15.5vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 40.115vw;
+}
+
+		div#problem:hover{
+		background-image: url(../images/keyboard/23_problem_down.png);
+		margin-top: 32vw;
+	}	
+
+div#is{
+	background-image: url(../images/keyboard/24_is_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 55.525vw;
+}
+
+		div#is:hover{
+		background-image: url(../images/keyboard/24_is_down.png);
+		margin-top: 32vw;
+	}	
+
+div#thattwo{
+	background-image: url(../images/keyboard/25_that_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 62.38vw;
+}
+
+		div#thattwo:hover{
+		background-image: url(../images/keyboard/25_that_down.png);
+		margin-top: 32vw;
+	}	
+
+div#you{
+	background-image: url(../images/keyboard/26_you_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 69.15vw;
+}
+
+		div#you:hover{
+		background-image: url(../images/keyboard/26_you_down.png);
+		margin-top: 32vw;
+	}	
+
+div#can{
+	background-image: url(../images/keyboard/27_can_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 30vw;
+	margin-left: 76.05vw;
+}
+
+		div#can:hover{
+		background-image: url(../images/keyboard/27_can_down.png);
+		margin-top: 32vw;
+	}	
+
+div#reach{
+	background-image: url(../images/keyboard/28_reach_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.77vw;
+	height: 7vw;
+	margin-top: 35vw;
+	margin-left: 15vw;
+}
+
+		div#reach:hover{
+		background-image: url(../images/keyboard/28_reach_down.png);
+		margin-top: 37vw;
+	}	
+
+div#twonine{
+	background-image: url(../images/keyboard/29_so_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 35vw;
+	margin-left: 28.60vw;
+}
+
+		div#twonine:hover{
+		background-image: url(../images/keyboard/29_so_down.png);
+		margin-top: 37vw;
+	}	
+
+div#manytwo{
+	background-image: url(../images/keyboard/30_many_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 7vw;
+	height: 7vw;
+	margin-top: 35vw;
+	margin-left: 35.5vw;
+}
+
+		div#manytwo:hover{
+		background-image: url(../images/keyboard/30_many_down.png);
+		margin-top: 37vw;
+	}	
+
+div#people{
+	background-image: url(../images/keyboard/31_people_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 35vw;
+	margin-left: 42.37vw;
+}
+
+		div#people:hover{
+		background-image: url(../images/keyboard/31_people_down.png);
+		margin-top: 37vw;
+	}	
+
+div#whitney{
+	background-image: url(../images/keyboard/32_whitney_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 16vw;
+	height: 7vw;
+	margin-top: 35vw;
+	margin-left: 55.975vw;
+}
+
+		div#whitney:hover{
+		background-image: url(../images/keyboard/32_whitney_down.png);
+		margin-top: 37vw;
+	}	
+
+div#ceo{
+	background-image: url(../images/keyboard/33_CEO_up.png);
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 13.75vw;
+	height: 7vw;
+	margin-top: 35vw;
+	margin-left: 71.80vw;
+}
+
+		div#ceo:hover{
+		background-image: url(../images/keyboard/33_CEO_down.png);
+		margin-top: 37vw;
+	}	
 
