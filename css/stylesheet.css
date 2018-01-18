@@ -8,6 +8,18 @@ html{
 	height: 100%;
 }
 
+@font-face {
+font-family: "MiriamLibre";
+src: url("../font/Miriam_Libre/MiriamLibre-Regular.ttf");}
+
+@font-face{
+font-family: "MiriamLibre-Bold";
+src: url("../font/Miriam_Libre/MiriamLibre-Bold.ttf");}
+
+@font-face{
+font-family: "Palanquin";
+src: url("../font/Palanquin_Dark/PalanquinDark-Regular.ttf");}
+
 body{
 	width: 100%;
 	height: 100%;
@@ -52,7 +64,7 @@ background-image: url(../images/pink_background-1.gif);
 }
 
 h1#v1{ 
-font-family: Miriam Libre;
+font-family: MiriamLibre;
 font-size: 25px; 
 text-align: left;
 color: white;
@@ -60,6 +72,9 @@ padding-left: 150px;
 padding-top: 180px;
 }
 h2#v2{ 
+width: 70vw;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
 font-family: MiriamLibre-Bold;
 font-size: 60px; 
 text-align: left;
@@ -81,13 +96,16 @@ h2#v2:hover{
 
 }
 h3#v3{ 
-font-family: Miriam Libre;
+font-family: MiriamLibre;
 font-size: 25px; 
 text-align: left;
 color: white;
 padding-left: 150px;
 }
 h4#v4{ 
+width: 45vw;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
 font-family: MiriamLibre-Bold;
 font-size: 60px; 
 text-align: left;
@@ -110,14 +128,14 @@ h4#v4:hover{
 
 
 h5#v5{ 
-font-family: Miriam Libre;
+font-family: MiriamLibre;
 font-size: 25px; 
 text-align: left;
 color: white;
 padding-left: 150px;
 }
 h6#v6{ 
-font-family: Miriam Libre;
+font-family: MiriamLibre;
 font-size: 25px; 
 text-align: left;
 color: white;
@@ -128,7 +146,7 @@ padding-top: 30px;
 h1#twosix{
 	font-size: 60px;
 	color: white;
-	font-family:MiriamLibre-Bold;
+	font-family: MiriamLibre-Bold;
 }
 
 section.page-three{
@@ -145,7 +163,6 @@ section.page-three{
 }
 
 div#sixthreequote{
-	font-family: Miriam Libre;
 	width: 900px;
  	color: #ff02ff;
  	text-shadow: 2px 2px 0 #000;
@@ -153,7 +170,7 @@ div#sixthreequote{
  	position: center;
 	font-size:30px;
 	margin:17% 0 0 15%;
-	font-family: Palanquin Dark;
+	font-family: Palanquin;
 	padding:0 0 0 0;
 	transition: transform 0.1s;
 		-moz-transition: transform 0.1s;
@@ -171,9 +188,6 @@ div#sixthreequote:hover{
 
 }
 
-@font-face {
-font-family: "Miriam Libre";
-src: url("../fonts/MiriamLibre-Bold.ttf")}
 
 section.page-four{
 	background-image:url(../images/blackback.gif);
